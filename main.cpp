@@ -9,10 +9,8 @@ int main() {
     Fraction b(2, 4); 
     Fraction c;
     c = a - b;
-    printf("%d/n, b.getNumerator());
-    printf("%d/n, b.getDenominator());
-    printf("%d/n, c.getValue());
-    printf("%d/n, b.getValue());
-    printf("%d/n, a.getValue());
+    printf("%s/n, c.getValue());
+    printf("%s/n, b.getValue());
+    printf("%s/n, a.getValue());
     return 0;
 }
