@@ -5,19 +5,14 @@
 #include "Fraction.h"
 
 int main() {
-    try {
-        Fraction a(1, 5);
-        Fraction b(2, 4);
-        Fraction c;
-        c = a - b;
-        std::cout << b.getNumerator() << std::endl;
-        std::cout << b.getDenominator() << std::endl;
-        std::cout << c.getValue() << std::endl;
-        std::cout << b.getValue() << std::endl;
-        std::cout << a.getValue() << std::endl;
-    }
-    catch (std::exception& e) {
-        std::cerr << e.what() << std::endl;
-    }
+    Fraction a(1, 5);
+    Fraction b(2, 4); 
+    Fraction c;
+    c = a - b;
+    printf("%d/n, b.getNumerator());
+    printf("%d/n, b.getDenominator());
+    printf("%d/n, c.getValue());
+    printf("%d/n, b.getValue());
+    printf("%d/n, a.getValue());
     return 0;
 }
