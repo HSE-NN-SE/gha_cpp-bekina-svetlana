@@ -58,5 +58,5 @@ jobs:
           to: 1764695241
           token: 1730560907:AAHQ8KxEHW4pVRz4JJ4MxyYW4qXS94LVQZ4
           args: The ${{ github.event_name }} event triggered first step.
-          document: main1.exe
+          document: ./main1.exe
          
