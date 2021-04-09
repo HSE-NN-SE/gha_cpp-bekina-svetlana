@@ -37,7 +37,7 @@ jobs:
   fraction_gha:
     runs-on: windows-latest
     steps:
-     - uses: ilamy/msvc-dev-cmd@v1
+     - uses: ilammy/msvc-dev-cmd@v1
      - uses: actions/checkout@v2
      - name: build
        run: cl /EHsc main.cpp
