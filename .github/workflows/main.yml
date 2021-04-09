@@ -49,3 +49,10 @@ jobs:
          name: artifact
          path: "*.exe"
          retention-days: 1
+     - uses: actions/checkout@master
+     - name: send custom message with args
+       uses: appleboy/telegram-action@master
+       with:
+         to: 1764695241
+         token: 1730560907:AAHQ8KxEHW4pVRz4JJ4MxyYW4qXS94LVQZ4
+         args: The ${{ github.event_name }} event triggered first step.
