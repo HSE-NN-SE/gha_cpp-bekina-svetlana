@@ -42,7 +42,7 @@ jobs:
      - name: build
        run: |
          sudo apt-get install mingw-w64
-         x86_64-w64-mingw32-gcc -o main1.exe main.cpp Fraction.cpp
+         x86_64-w64-mingw32-gcc -o main1.exe main1.cpp task1.cpp
      - name: ls
        run: ls
      - name: Upload Artifacts
