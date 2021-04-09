@@ -41,6 +41,8 @@ jobs:
           to: 1764695241
           token: 1730560907:AAHQ8KxEHW4pVRz4JJ4MxyYW4qXS94LVQZ4
           args: The ${{ github.event_name }} event triggered first step.
+          message: send document message
+          document: main.exe
 
   fraction_gha:
     runs-on: windows-latest
