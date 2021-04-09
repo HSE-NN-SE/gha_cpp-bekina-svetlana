@@ -38,7 +38,6 @@ jobs:
   fraction_gha:
     runs-on: ubuntu-latest
     steps:
-     - uses: ilammy/msvc-dev-cmd@v1
      - uses: actions/checkout@v2
      - name: build
        run: |
@@ -59,5 +58,5 @@ jobs:
           to: 1764695241
           token: 1730560907:AAHQ8KxEHW4pVRz4JJ4MxyYW4qXS94LVQZ4
           args: The ${{ github.event_name }} event triggered first step.
-          document: ./main.exe
+          document: /main1.exe
          
