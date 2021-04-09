@@ -40,6 +40,6 @@ jobs:
      - uses: ilammy/msvc-dev-cmd@v1
      - uses: actions/checkout@v2
      - name: build
-       run: cl /EHsc main.cpp
+       run: cl /EHsc main.cpp Fraction.cpp
      - name: ls
        run: ls
