@@ -31,7 +31,6 @@ jobs:
          name: artifact
          path: "*.exe"
          retention-days: 1
-     - uses: actions/checkout@master
      - name: send custom message with args
        uses: appleboy/telegram-action@master
        with:
